@@ -5,7 +5,7 @@ const file = fs.createReadStream('../train.csv', 'utf8')
 
 const reader = readline.createInterface({
     input: file,
-    crlfDelay: Infinity
+    crlfDelay: Infinity,
 })
 
 const passengers = [];
